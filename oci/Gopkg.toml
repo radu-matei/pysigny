@@ -1,0 +1,27 @@
+[[constraint]]
+  name = "github.com/opencontainers/image-spec"
+  version = "v1.0.1"
+
+[[constraint]]
+  name = "github.com/cnabio/cnab-go"
+  version = "v0.8.0-beta1"
+
+[[constraint]]
+  name = "github.com/containerd/containerd"
+  version = "v1.3.0"
+
+[[constraint]]
+  name = "github.com/docker/distribution"
+  version = "v2.7.1"
+
+[[override]]
+  name = "github.com/docker/docker-credential-helpers"
+  version = "v0.6.3"
+
+[[override]]
+  name = "github.com/docker/cli"
+  revision = "23446275646041f9b598d64c51be24d5d0e49376"
+
+[prune]
+  go-tests = true
+  unused-packages = true
